@@ -65,7 +65,7 @@ cd MissionScheduler
 Choose an option: 1
 
 Enter task name: Prepare Launch Systems
-Enter deadline (yyyy-MM-dd): 2025-01-25
+Enter deadline (yyyy-MM-dd): 2023-03-18
 Enter priority (1-5): 2
 Enter mission phase: Launch Preparation
 Enter criticality level (Low/Medium/High): High
