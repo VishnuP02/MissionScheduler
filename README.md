@@ -16,7 +16,8 @@ A simple console-based application designed to help manage and prioritize tasks 
 
 To run this project, you'll need:
 - [.NET SDK](https://dotnet.microsoft.com/download) (version 6 or later)
-- A text editor or IDE such as [Visual Studio Code](https://code.visualstudio.com/) or [Visual Studio](https://visualstudio.microsoft.com/)
+- A text editor or IDE such as [Visual Studio Code](https://code.visualstudio.com/) or [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+
 
 ### Cloning the Repository
 
