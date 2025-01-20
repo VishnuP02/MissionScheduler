@@ -23,33 +23,37 @@ To run this project, you'll need:
 ```bash
 git clone https://github.com/VishnuP02/MissionScheduler.git
 cd MissionScheduler
+```
 
-Running the Application
-Open a terminal in the project directory.
-Build the application:
-bash
-Copy
-Edit
-dotnet build
-Run the application:
-bash
-Copy
-Edit
-dotnet run
-Usage
-Add a Task: Enter task details such as name, deadline, priority, etc.
-View Tasks: Choose a sorting method (priority, deadline, or criticality level) and view tasks in the desired order.
-Save Tasks: Save all tasks to a JSON file for future use.
-Load Tasks: Load tasks from a previously saved JSON file.
-Adjust Priorities: Automatically adjust task priorities based on their deadlines.
-Project Structure
-Task.cs: Defines the Task class, including properties for task details like name, deadline, priority, and dependencies.
-TaskManager.cs: Manages the core functionality, such as adding, viewing, saving, loading tasks, and adjusting priorities.
-Program.cs: The entry point of the application, providing the user interface and menu-driven interaction.
-Example Output
-mathematica
-Copy
-Edit
+### Running the Application
+
+1. Open a terminal in the project directory.
+2. Build the application:
+   ```bash
+   dotnet build
+   ```
+3. Run the application:
+   ```bash
+   dotnet run
+   ```
+
+## Usage
+
+- **Add a Task**: Enter task details such as name, deadline, priority, etc.
+- **View Tasks**: Choose a sorting method (priority, deadline, or criticality level) and view tasks in the desired order.
+- **Save Tasks**: Save all tasks to a JSON file for future use.
+- **Load Tasks**: Load tasks from a previously saved JSON file.
+- **Adjust Priorities**: Automatically adjust task priorities based on their deadlines.
+
+## Project Structure
+
+- **`Task.cs`**: Defines the Task class, including properties for task details like name, deadline, priority, and dependencies.
+- **`TaskManager.cs`**: Manages the core functionality, such as adding, viewing, saving, loading tasks, and adjusting priorities.
+- **`Program.cs`**: The entry point of the application, providing the user interface and menu-driven interaction.
+
+## Example Output
+
+```plaintext
 === Mission Scheduler ===
 1. Add Task
 2. View Tasks
@@ -66,3 +70,4 @@ Enter mission phase: Launch Preparation
 Enter criticality level (Low/Medium/High): High
 Enter dependency (name of the task this depends on, or leave blank): 
 Task added successfully! Press Enter to continue.
+```
